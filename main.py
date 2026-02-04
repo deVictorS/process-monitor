@@ -8,7 +8,7 @@ import os
 LIMITE_CPU = 80
 LIMITE_MEMORIA = 80
 
-LOG_FILE = "logs/day17.txt"
+LOG_FILE = ""
 os.makedirs("logs", exist_ok = True)
 
 def registrarLog(mensagem):
